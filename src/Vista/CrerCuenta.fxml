@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controlador.CrerCuentaController">
+   <children>
+      <Button layoutX="263.0" layoutY="296.0" mnemonicParsing="false" text="Crear" />
+      <Label layoutX="132.0" layoutY="91.0" text="Correo" />
+      <Label layoutX="132.0" layoutY="124.0" text="Nombre" />
+      <Label layoutX="132.0" layoutY="160.0" text="Contraeña" />
+      <TextField layoutX="211.0" layoutY="96.0" />
+      <TextField layoutX="211.0" layoutY="129.0" />
+      <TextField layoutX="211.0" layoutY="165.0" />
+   </children>
+</AnchorPane>

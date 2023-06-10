@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controlador.IniciarSesionController">
+   <children>
+      <Label layoutX="132.0" layoutY="90.0" prefHeight="39.0" prefWidth="92.0" text="Correo">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="148.0" prefHeight="39.0" prefWidth="103.0" text="Contraseña">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="284.0" layoutY="223.0" mnemonicParsing="false" text="Iniciar Sesión" />
+      <TextField layoutX="253.0" layoutY="104.0" fx:id="correoField" />
+      <TextField layoutX="253.0" layoutY="155.0" fx:id="contraseniaField" />
+   </children>
+</AnchorPane>
